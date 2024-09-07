@@ -7,13 +7,13 @@ Here’s the updated README with the additional information:
 **A secure and efficient database solution for your private server, featuring encryption, automatic backups, and dual-node redundancy.**
 
 ## 🌟 Key Features:
-- ** Rate Limiting**: Built-in protection to limit the number of requests within a defined time window, preventing abuse.
-- ** Backup System**: Regular automatic backups safeguard your data, with additional backups triggered after any server crash.
-- ** SHA256-Encrypted JSON**: All data is stored in JSON format and encrypted using the SHA256 algorithm for top-tier security.
-- ** Dual Node Support**: ChainDB is designed to run multiple server nodes that communicate with each other. If one node fails, the others take over to ensure maximum uptime.
-- ** Auto Backup on Crash**: Immediately triggers a backup when the server crashes, protecting your valuable data.
-- ** Web UI & 🖥️ App UI**: ChainDB includes a web-based interface and standalone app support for Linux and Windows.
-- ** API Support**: Exposes an API for third-party integration. **Important**: Always make sure third-party programs are secure to prevent data breaches!
+- **Rate Limiting**: Built-in protection to limit the number of requests within a defined time window, preventing abuse.
+- **Backup System**: Regular automatic backups safeguard your data, with additional backups triggered after any server crash.
+- **SHA256-Encrypted JSON**: All data is stored in JSON format and encrypted using the SHA256 algorithm for top-tier security.
+- **Dual Node Support**: ChainDB is designed to run multiple server nodes that communicate with each other. If one node fails, the others take over to ensure maximum uptime.
+- **Auto Backup on Crash**: Immediately triggers a backup when the server crashes, protecting your valuable data.
+- **Web UI & 🖥️ App UI**: ChainDB includes a web-based interface and standalone app support for Linux and Windows.
+- **API Support**: Exposes an API for third-party integration. **Important**: Always make sure third-party programs are secure to prevent data breaches!
 
 ## 🔧 How Dual Node Works:
 A **node** in ChainDB refers to a server that handles your database and client requests. When multiple nodes are deployed:
