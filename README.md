@@ -11,7 +11,6 @@
 - **Auto Backup on Crash**: Immediately triggers a backup when the server crashes, protecting your valuable data.
 - **Web UI & App UI**: ChainDB includes a web-based interface and standalone app support for Linux and Windows.
 - **API Support**: Exposes an API for third-party integration. **Important**: Always make sure third-party programs are secure to prevent data breaches.
-- **HMAC Authentication**: We use HMAC (Hash-based Message Authentication Code) for secure and reliable API authentication.
 
 ## How Dual Node Works:
 A **node** in ChainDB refers to a server that handles your database and client requests. When multiple nodes are deployed:
