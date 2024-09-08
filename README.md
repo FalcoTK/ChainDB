@@ -50,3 +50,9 @@ When integrating ChainDB with third-party programs, ensure your data remains sec
 - Load balancing between nodes for enhanced performance under heavy loads.
 - Advanced monitoring and metrics through the web and app UI.
 
+## Documentation & Examples
+**Coming soon**—detailed docs and code samples to help you get started quickly.
+
+## Support
+If you find this project useful, please consider giving it a ⭐ on GitHub!
+
