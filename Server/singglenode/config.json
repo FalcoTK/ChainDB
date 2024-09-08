@@ -1,0 +1,30 @@
+{
+  "JsonConfig": {
+    "location": "",
+    "random-db-name": false,
+    "encryptionMethod": "sha256"
+  },
+  "Config": {
+    "ServerConfig": {
+      "LogActivity": false,
+      "port": 1000,
+      "ratelimiter": true,
+      "dualNode": {
+        "UseNode": true,
+        "NodeIp": "1.1.1."
+      },
+      "pool": {
+        "UsePool": false,
+        "NodeIp": ["1.1.1.1"]
+      },
+      "WhitelistIP": {
+        "UseWhitelist": true,
+        "IpAllowLst": ["192.168.100.14"]
+      }
+    },
+    "TokenConfig": {
+      "secretKey": "your_secret_key",
+      "duration": 300
+    }
+  }
+}
